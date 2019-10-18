@@ -11,7 +11,7 @@ We then turned our 3 categorical variables (region, style, availability) into du
 
 ## Data Exploration
 We looked at the correlation between variables, and chose to drop user rating as it is directly correlated to the BA score.
-![linear Relationship](ba_user_linearity.png)
+![linear Relationship](linearity.png)
 Then we looked at normality of distribution and decided that log transformations did not have an effect on the distribution, so we proceeded as is and standardized our data.
 ## Regression Analysis
 Then, taking an iterative approach we looked at how each of our variables affected the dependant variable, BA score.
